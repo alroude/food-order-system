@@ -16,6 +16,7 @@
                 <span>Categories</span>
             </div>
 
+<<<<<<< HEAD
             <div class="dashbox">
                 <h1>5</h1>
                 <br>
@@ -40,3 +41,10 @@
 <!-- Main content section Ends -->
 
 <?php include('../partials/footer.php'); ?>
+=======
+<body>
+<?php  ?>
+</body>
+
+</html>
+>>>>>>> 93aa58d2283cc655b51ad863a7a8e133e715c7b4
