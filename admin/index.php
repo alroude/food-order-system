@@ -39,4 +39,9 @@
 </div>
 <!-- Main content section Ends -->
 
+<<<<<<< HEAD
 <?php include('../partials/footer.php'); ?>
+=======
+<?php include('../partials/footer.php'); ?>
+
+>>>>>>> a6af8f1c06f3a822770af503f886019fcac3ce27
