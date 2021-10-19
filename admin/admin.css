@@ -1,0 +1,141 @@
+/*
+    Author: Nimrod Musungu
+    Theme: Food Order System Admin
+    Version: 1.0
+*/
+
+/* Root */
+:root {
+  --primary: #575fcf;
+  --primary-dark: #3c40c6;
+  --secondary: #0be881;
+  --secondary-dark: #05c46b;
+  --danger: #ff5e57;
+  --danger-dark: #f53b57;
+}
+
+/* Global Settings */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.btn {
+  padding: 20px 40px;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.btn-primary {
+  background-color: var(--primary);
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: var(--primary);
+}
+
+.btn-secondary {
+  background-color: var(--secondary);
+  color: white;
+}
+
+.btn-secondary:hover {
+  background-color: var(--secondary-dark);
+}
+
+.btn-danger {
+  background-color: var(--danger);
+  color: white;
+}
+
+.btn-danger:hover {
+  background-color: var(--danger-dark);
+}
+
+.wrapper {
+  padding: 1%;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.clearfix {
+  float: none;
+  clear: both;
+}
+
+/* Menu CSS Styles */
+
+.menu {
+  border-bottom: 1px solid #d4d4d4;
+  padding: 1% 0;
+  text-align: center;
+  transition: a 0.3s ease;
+}
+
+.menu ul li {
+  display: inline;
+  padding: 1%;
+  text-transform: uppercase;
+}
+
+.menu ul li a {
+  color: var(--danger);
+  font-weight: bold;
+}
+
+.menu ul li a:hover {
+  color: var(--danger-dark);
+}
+
+/* Main CSS Styles */
+
+.main-content {
+  padding: 3% 0;
+  background-color: #ebecec;
+}
+
+.content-title h1 {
+  font-size: 24px;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.dash-boxes {
+}
+
+.dashbox {
+  background-color: white;
+  width: 18%;
+  padding: 2% 0;
+  text-align: center;
+  margin: 1%;
+  float: left;
+  color: #333;
+}
+
+.dashbox span {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.dashbox:first-child {
+  margin-left: 0;
+}
+
+/* Footer CSS Styles */
+
+.footer {
+  background-color: var(--danger-dark);
+  color: #fff;
+  text-align: center;
+}
