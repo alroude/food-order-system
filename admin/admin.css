@@ -107,7 +107,7 @@ li {
 .content-title h1 {
   font-size: 24px;
   margin-bottom: 30px;
-  color: #333;
+  color: red;
 }
 
 .dash-boxes {
@@ -115,7 +115,7 @@ li {
 
 .dashbox {
   background-color: white;
-  width: 18%;
+  width: 23%;
   padding: 2% 0;
   text-align: center;
   margin: 1%;
